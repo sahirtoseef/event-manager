@@ -1,0 +1,291 @@
+.event-avatar-click img{
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.event-avatar-click{
+    background: #f4f4f4;
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;    
+    padding: 10px 0px;
+}
+.event-avatar-click i{
+    margin-top: 10px;
+}
+.select2-container--default .select2-search--inline .select2-search__field{
+    padding: 5px 10px !important;
+    font-size: 0.875rem !important;
+}
+.select2-container--default .select2-selection--multiple{
+    border: 1px solid #cad1d7 !important;
+}
+.select2-container--default .select2-search--inline .select2-search__field::placeholder{
+    color: #8898aa;
+}
+#select-avatar-image{
+    width: 150px;
+    object-fit: cover;
+}
+
+.add-visitor-avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.add-visitor-avatar input{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    border-radius: 100px;
+    opacity: 0;
+}
+
+
+.add-visitor-avatar img{
+    margin: 20px auto; 
+    display: block; 
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.drop-csv{
+      border-radius: 10px;
+      height: 200px;
+      font-size: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 20px;
+      background: #f4f4f4;
+      position: relative;
+}
+.drop-csv input{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    border-radius: 100px !important;
+    background-color: #e4e4e4;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    border: none !important;
+    color: #fff !important;
+    background: #d4d4f8 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate{
+    padding-top: 1.25em !important;
+}
+.dataTables_wrapper .dataTables_info{
+    padding-top: 1.755em !important;  
+}
+.avatar.rounded-circle.mr-3 img{
+    height: 100%;
+}
+
+.invisible {
+    visibility: hidden;
+    
+}
+
+span.tag.label.label-info{
+    padding: 0px 10px;
+    background-color: #5bc0de;
+    border-radius: 10px;
+}
+.bootstrap-tagsinput input::placeholder{
+      color: #909eaf;
+      font-size: 0.875rem !important; 
+}
+.bootstrap-tagsinput{
+      padding: 10px 6px !important;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+    padding: 5px 10px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    margin-top: 8px !important;
+    padding: 5px 12px !important;
+    background-color: #5e72e4 !important;
+    border: none !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li{
+    color: #fff;
+    font-weight: bold;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    margin-right: 10px !important;
+    color: #fff !important;
+}
+table.dataTable.no-footer{
+    border-bottom: 1px solid #e2e2e2 !important;
+}
+.visitor-menu-item-ul{
+    list-style: none;
+    display: none;
+}
+
+.visitor-menu-item-1{
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left: 35px;
+}
+.visitor-menu-item{
+    font-size: 14px; 
+    margin-bottom: 20px;
+    padding-left: 35px;
+}
+.scan-btns{
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.scan-btns.qr{
+    background-image: url(http://www.eschoolnews.com/files/2012/01/QR_codes.jpg);
+}
+.scan-btns.id{
+    background-image: url(https://ak1.picdn.net/shutterstock/videos/20486761/thumb/1.jpg);
+}
+.scan-btns .overlay{
+    padding: 20px; 
+    border-radius: 10px; 
+    position: absolute; 
+    top:0px; left:0px;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+}
+.scan-btns h1{
+    color: white; 
+    font-weight: bold;
+}
+
+.or-btn{
+    background-image: url('https://pngimage.net/wp-content/uploads/2018/06/or-png-2.png');
+    background-repeat: no-repeat;
+    height: 120px;
+    background-size: 160px;
+    background-position: center; 
+}
+
+.modal-danger .modal-content, .modal-success .modal-content, .modal-warning .modal-content{
+    height: initial;
+}
+
+.loader-container{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 9;
+}
+.loader{
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #5e72e4;
+  width: 60px;
+  position: absolute;
+  top: 300px;
+  left: 47%;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.scanprocess{
+ width: 100% !important;
+ position: absolute;
+ left: 0%;
+ top: 40%;
+}
+
+.attendence .input-group .form-control:not(:first-child){
+   border-left: inherit;
+   padding-left: 0.75rem; 
+}
+
+.attendence .input-group>.form-control:not(:first-child), .attendence .input-group>.custom-select:not(:first-child){
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+#scanCont{
+    width: 90%;
+}
+
+.modal-mark .modal-content {
+    background-color: #5d52bf;
+    color: #fff;
+    height: 350px;
+}
+.modal-mark .modal-content .mark-desc{
+    margin-top: 15px;
+    font-weight: 600;
+}
+.modal-mark .modal-content .danger-content{
+    text-align: left;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    color: red;
+}
+
+.modal-mark .input-group .form-control:not(:first-child) {
+    border-left: 0;
+    padding-left: 0;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+
+.mark-sngle-visit.btn-outline-success:hover {
+    color: #fff !important;
+    background-color: #2dce89;
+    border-color: #2dce89;
+}
+
+.history-single-visit.btn-outline-info {
+    color: #11cdef !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #11cdef;
+}
+
+.history-single-visit.btn-outline-info:hover {
+    color: #fff !important;
+    background-color: #11cdef;
+    border-color: #11cdef;
+}
